@@ -146,7 +146,10 @@
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 3,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 3,
     "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 3,
-    "(?i)\\bREMUX\\b": 3
+    "(?i)\\bREMUX\\b": 3,
+    "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b": 3,
+    "\\b(BBQ|c0kE|Chotab|CRiSC|CtrlHD|D-Z0N3|Dariush|decibeL|DON|EbP|EDPH|Geek|LolHD|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZQ|EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR|BHDStudio|hallowed|HONE|LoRD|playHD|SPHD|W4NK3R)\\b|-BMF": 3,
+    "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b": 3
   },
   "backgroundOpacities": {
     "(?i)^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:DEFLATE|INFLATE)\\b).*": 1,
@@ -181,7 +184,12 @@
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 1,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 1,
     "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 1,
-    "(?i)\\bREMUX\\b": 1
+    "(?i)\\bREMUX\\b": 1,
+    "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b": 1,
+    "\\b(BBQ|c0kE|Chotab|CRiSC|CtrlHD|D-Z0N3|Dariush|decibeL|DON|EbP|EDPH|Geek|LolHD|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZQ|EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR|BHDStudio|hallowed|HONE|LoRD|playHD|SPHD|W4NK3R)\\b|-BMF": 1,
+    "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": 1,
+    "(1080p|720p|full[-\\s]?hd|fhd|hd1080|hd720)": 1,
+    "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b": 1
   },
   "tagEnabled": [
     "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
@@ -216,7 +224,12 @@
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)",
     "(?i)\\bimax\\b",
     "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
-    "(?i)\\bREMUX\\b"
+    "(?i)\\bREMUX\\b",
+    "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b",
+    "\\b(BBQ|c0kE|Chotab|CRiSC|CtrlHD|D-Z0N3|Dariush|decibeL|DON|EbP|EDPH|Geek|LolHD|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZQ|EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR|BHDStudio|hallowed|HONE|LoRD|playHD|SPHD|W4NK3R)\\b|-BMF",
+    "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b",
+    "(1080p|720p|full[-\\s]?hd|fhd|hd1080|hd720)",
+    "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b"
   ],
   "patterns": [
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)",
@@ -251,7 +264,12 @@
     "(?i)(?=.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
     "(?i)\\bimax\\b",
     "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
-    "(?i)\\bREMUX\\b"
+    "(?i)\\bREMUX\\b",
+    "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b",
+    "\\b(BBQ|c0kE|Chotab|CRiSC|CtrlHD|D-Z0N3|Dariush|decibeL|DON|EbP|EDPH|Geek|LolHD|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZQ|EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR|BHDStudio|hallowed|HONE|LoRD|playHD|SPHD|W4NK3R)\\b|-BMF",
+    "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b",
+    "(1080p|720p|full[-\\s]?hd|fhd|hd1080|hd720)",
+    "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b"
   ],
   "colorHexValues": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "#FFFFFF",
@@ -334,7 +352,12 @@
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 0,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 0,
     "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 0,
-    "(?i)\\bREMUX\\b": 0
+    "(?i)\\bREMUX\\b": 0,
+    "\\b(CtrlHD|MainFrame|DON|W4NK3R|HQMUX|BHDStudio|hallowed|HONE|PTer|SPHD|WEBDV)\\b": 0,
+    "\\b(BBQ|c0kE|Chotab|CRiSC|CtrlHD|D-Z0N3|Dariush|decibeL|DON|EbP|EDPH|Geek|LolHD|NCmt|PTer|TayTO|TDD|TnP|VietHD|ZQ|EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR|BHDStudio|hallowed|HONE|LoRD|playHD|SPHD|W4NK3R)\\b|-BMF": 0,
+    "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": 0,
+    "(1080p|720p|full[-\\s]?hd|fhd|hd1080|hd720)": 0,
+    "\\b(ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|SbR|SMURF|TOMMY|XEBEC|4KBEC|CEBEX|CasStudio|CtrlHD|RTN|T6D|ViSUM|3cTWeB|BTW|Cinefeel|CiT|Coo7|DEEP|END|ETHiCS|FC|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|NPMS|NYH|orbitron|PSiG|ROCCaT|RTFM|SDCC|SIGMA|SPiRiT|TVSmash|WELP|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\\b": 0
   },
   "exportDate": "2026-07-01T09:16:58.473Z",
   "colorIndices": {
