@@ -73,7 +73,12 @@
     "(?i)\\batmos\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/atmos.png",
     "\\b(3L|BiZKiT|BLURANiUM|CiNEPHiLES|FraMeSToR|PmP|ZQ|Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|iFT|KRaLiMaRKo|NTb|PTP|SumVision|TOA|TRiToN|PTer)\\b|-BMF|-WiLDCAT": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/remux-unranked.png",
     "(?i)\\bimax\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/imaxv2.png",
-    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/seadex.png"
+    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/seadex.png",
+    "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/dtsx.png",
+    "(?i)(?=.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/51.png",
+    "(?i)^ (?=.*\\bDTS(?:\\b|\\d)) (?!.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d)) (?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi))) (?!.*(?:\\bDD[P+]|(?:\\be[-_. ]?ac-?3\\b))) (?!.*(?:True[ .-]?HD|\\bATMOS(?:\\b|\\d))) (?!.*(?:\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b)) (?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456]))) (?!.*\\bFLAC(?:\\b|\\d)) (?!.*\\bAAC(?:\\b|\\d)) (?!.*\\b(?:l?)PCM(?:\\b|\\d)) .*$": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/dts.png",
+    "(?i)(?=.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/61.png",
+    "(?i)(?=.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]|\\\\b(Stereo|Mono)\\\\b)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/71.png"
   },
   "borderRadiusIndices": {
     "(?i)^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:3cTWeB|BTW|Chotab|Cinefeel|CiT|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SA89|SbR|SDCC|SIGMA|SMURF|SPiRiT|TVSmash|WELP|XEBEC|4KBEC|CEBEX)\\b).*": 3,
