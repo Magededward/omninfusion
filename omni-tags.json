@@ -1,7 +1,6 @@
 {
   "customNames": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "DTS-X",
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "DOLBY DIGITAL +",
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": "1080p",
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": "2160p",
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": "DTS-HD",
@@ -32,12 +31,12 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": "DV",
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": "HDR10",
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": "HDR10+",
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "HDR (UNDEFINED)"
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "HDR (UNDEFINED)",
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "DOLBY DIGITAL +"
   },
   "version": "1.1.0",
   "imageURLs": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/dtsx-dark.png",
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/ddplus.png",
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/1080p.png",
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/4k.png",
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/dtshd.png",
@@ -68,7 +67,8 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/dv.png",
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/hdr10.png",
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/hdr10plus.png",
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/hdr.png"
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/hdr.png",
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "https://raw.githubusercontent.com/Magededward/omninfusion/main/images/ddplus.png"
   },
   "borderRadiusIndices": {
     "\\bATMOS\\b": 3,
@@ -103,7 +103,6 @@
     "(?i)true[-]?hd": 3,
     "(?i)^(?=.*\\bRemaster\\b)(?!.*\\b4K\\b)": 3,
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": 3,
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 3,
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": 3,
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": 3,
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": 3,
@@ -134,11 +133,11 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": 3,
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": 3,
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": 3,
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 3
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 3,
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 3
   },
   "backgroundOpacities": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": 1,
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 1,
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": 1,
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": 1,
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": 1,
@@ -169,7 +168,8 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": 1,
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": 1,
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": 1,
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 1
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 1,
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 1
   },
   "tagEnabled": [
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)",
@@ -197,7 +197,7 @@
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)",
     "(?i)(?=.*\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d))(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))(?!.*dts[-. ]?(es|(hd[. ]?)?(hr|hi)))",
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
     "(?i)(?=.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDTS(\\b|\\d))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d)) ",
     "(?i)\\bDTS\\b(?![-_. ]?(?:HD|MA|X\\b|ES|HRA))",
     "(?i)(?=.*\\b[78]\\.1(?!\\d))(?!.*\\b5\\.1(?!\\d))(?!.*\\b6\\.1(?!\\d))",
@@ -233,7 +233,7 @@
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)",
     "(?i)(?=.*\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d))(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))(?!.*dts[-. ]?(es|(hd[. ]?)?(hr|hi)))",
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
     "(?i)(?=.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDTS(\\b|\\d))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d)) ",
     "(?i)\\bDTS\\b(?![-_. ]?(?:HD|MA|X\\b|ES|HRA))",
     "(?i)(?=.*\\b[78]\\.1(?!\\d))(?!.*\\b5\\.1(?!\\d))(?!.*\\b6\\.1(?!\\d))",
@@ -244,7 +244,6 @@
   ],
   "colorHexValues": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "#FFFFFF",
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "#FFFFFF",
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": "#FF6904",
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": "#FFBE01",
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": "#FFFFFF",
@@ -275,7 +274,8 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": "#FFBE01",
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": "#FFBE01",
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": "#FFBE01",
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "#FFBE01"
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": "#FFBE01",
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": "#FFFFFF"
   },
   "borderThicknessIndices": {
     "(?i)hdr10\\++dr10plus|hdr10p": 0,
@@ -287,7 +287,6 @@
     "(?i)^(?=.*\\bRemaster\\b)(?!.*\\b4K\\b)": 0,
     "(?i)(?=.*\\b(True[ .-]?HD|W4NK3R|HQMUX)\\b)(?=.*\\b(ATMOS|CtrlHD|W4NK3R|DON)\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bDTS\\b)(?!.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bFLAC\\b)": 0,
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": 0,
-    "(?i)(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 0,
     "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b": 0,
     "(?i)\\b(2160p|4k|uhd|ultra\\s*hd)\\b": 0,
     "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": 0,
@@ -318,7 +317,8 @@
     "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b": 0,
     "(?i)\\bHDR[. -]?10(?![. -]?(?:\\+|[Pp]lus))": 0,
     "(?i)\\bHDR[. -]?10[. -]?(?:\\+|[Pp]lus)": 0,
-    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 0
+    "(?i)\\bHDR\\b(?![. -]?10)(?![. -]?(?:\\+|[Pp]lus))": 0,
+    "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)": 0
   },
   "exportDate": "2026-07-01T09:16:58.473Z",
   "colorIndices": {
