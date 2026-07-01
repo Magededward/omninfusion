@@ -145,7 +145,8 @@
     "(?i)^ (?=.*\\bDTS(?:\\b|\\d)) (?!.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d)) (?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi))) (?!.*(?:\\bDD[P+]|(?:\\be[-_. ]?ac-?3\\b))) (?!.*(?:True[ .-]?HD|\\bATMOS(?:\\b|\\d))) (?!.*(?:\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b)) (?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456]))) (?!.*\\bFLAC(?:\\b|\\d)) (?!.*\\bAAC(?:\\b|\\d)) (?!.*\\b(?:l?)PCM(?:\\b|\\d)) .*$": 3,
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 3,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 3,
-    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 3
+    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 3,
+    "(?i)\\bREMUX\\b": 3
   },
   "backgroundOpacities": {
     "(?i)^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:DEFLATE|INFLATE)\\b).*": 1,
@@ -179,7 +180,8 @@
     "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)": 1,
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 1,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 1,
-    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 1
+    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 1,
+    "(?i)\\bREMUX\\b": 1
   },
   "tagEnabled": [
     "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
@@ -213,7 +215,8 @@
     "(?i)^ (?=.*\\bDTS(?:\\b|\\d)) (?!.*\\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll))(?:\\b|\\d)) (?!.*dts[-. ]?(?:es|(?:hd[. ]?)?(?:hr|hi))) (?!.*(?:\\bDD[P+]|(?:\\be[-_. ]?ac-?3\\b))) (?!.*(?:True[ .-]?HD|\\bATMOS(?:\\b|\\d))) (?!.*(?:\\bDD[^a-z+]|(?<!e-)\\b(?:ac-?3)\\b)) (?!.*\\b(?:dts[-_.: ]?x7?)\\b(?![-_. ]?(?:26[456]))) (?!.*\\bFLAC(?:\\b|\\d)) (?!.*\\bAAC(?:\\b|\\d)) (?!.*\\b(?:l?)PCM(?:\\b|\\d)) .*$",
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)",
     "(?i)\\bimax\\b",
-    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)"
+    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+    "(?i)\\bREMUX\\b"
   ],
   "patterns": [
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)",
@@ -247,7 +250,8 @@
     "(?i)(?=.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*[^0-9]5[ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
     "(?i)(?=.*[^0-9]5[ .][0-1]\\b)(?!.*[^0-9]6[ .][0-1]\\b)(?!.*[^0-9][7-8][ .][0-1]\\b)(?!.*(?<!repac)[^0-9][1-4][ .][0-1]\\b|\\\\b(Stereo|Mono)\\\\b)",
     "(?i)\\bimax\\b",
-    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)"
+    "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+    "(?i)\\bREMUX\\b"
   ],
   "colorHexValues": {
     "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\\\b|\\\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)": "#FFFFFF",
@@ -329,7 +333,8 @@
     "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)": 0,
     "(?i)\\b720p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b720p\\b)": 0,
     "(?i)\\b(2160p|UHD)\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b(2160p|UHD)\\b)": 0,
-    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 0
+    "(?i)\\b1080p\\b(?=.*\\bREMUX\\b)|\\bREMUX\\b(?=.*\\b1080p\\b)": 0,
+    "(?i)\\bREMUX\\b": 0
   },
   "exportDate": "2026-07-01T09:16:58.473Z",
   "colorIndices": {
